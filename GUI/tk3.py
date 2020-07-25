@@ -12,7 +12,7 @@ changes = [
 
 v = IntVar()
 for lan, num in changes:
-    b = Radiobutton(group, text=lan, variable=v, value=num)
-    b.pack(anchor=W)
+    b = Radiobutton(group, text=lan, variable=v, value=num)  # 单选
+    b.pack(anchor=W)  # 左对齐
 
 mainloop()
